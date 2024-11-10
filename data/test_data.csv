@@ -1,0 +1,6 @@
+client_id,data_path,value
+client_1,/path/to/client_1_data,123.45
+client_2,/path/to/client_2_data,67.89
+client_3,/path/to/client_3_data,67.89
+client_4,/path/to/client_4_data,101.11
+client_5,/path/to/client_5_data,67.89

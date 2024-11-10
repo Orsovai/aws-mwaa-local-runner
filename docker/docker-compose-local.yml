@@ -30,6 +30,8 @@ services:
       - "${PWD}/plugins:/usr/local/airflow/plugins"
       - "${PWD}/requirements:/usr/local/airflow/requirements"
       - "${PWD}/startup_script:/usr/local/airflow/startup"
+      - "${PWD}/data:/usr/local/airflow/data"  # Mounting the data folder containing the CSV file
+      - "${PWD}/runs:/usr/local/airflow/runs"  # Mounting the data folder containing the CSV file
     ports:
       - "8080:8080"
     command: local-runner
